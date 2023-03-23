@@ -1,0 +1,25 @@
+/* .test {
+    border: 1px solid black;
+    display: block;
+} */
+div {
+    position: relative;
+    border: 2px solid black;
+    height: 1000px;
+    width: 300px;
+    margin-top: 20px;
+}
+.content-1 {
+    position: fixed;
+    margin-left: 200px;
+    margin-bottom: 300;
+    height: 50px;
+}
+.content-3 {
+    position: sticky;
+    top: 0;
+    height: 10px;
+}
+ul {
+    list-style-type: square;
+}
