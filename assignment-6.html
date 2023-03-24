@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <i class="fa fa-bars" aria-hidden="true"></i>
+    <style>
+        /* .pagination{
+            display: flex;
+        }
+        li{
+            list-style-type: none;
+            margin: 5px;
+            width: 15px;
+        }
+        li a{
+            text-decoration: none;
+        }
+        li a.active{
+            background-color: red;
+            color: white;
+        }
+        li a:hover{
+            background-color: green;
+        } */
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: auto;
+            height: 60px;
+            background-color: rgb(15, 219, 219);
+        }
+        ul {
+            list-style-type: none;
+            display: none;
+            justify-content: space-between;
+            align-items: center;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            justify-content: space-between;
+        }
+        li {
+            display: flex;
+            margin: 12px;
+            font-size: larger;
+            font-weight: 700;
+        }
+        /* .media{
+            border: 1px solid black;
+            /* display: block; */
+            /* display: none; */
+         
+        .content{
+            border: 1px solid red;
+            display: none;
+
+        }
+        @media screen and (max-width: 360px) {
+            #item-1{ 
+                display: inline-block;
+            } 
+            ul{
+                display: table-column;  
+            }  
+            }
+        
+        @media screen  and (min-width: 361px) and (max-width:768px) {
+            #item-2{
+                display: inline-block;
+            }
+            ul{
+                display: flex;
+            }
+        } 
+    @media screen and (min-width:769px) and (max-width:1024px) {
+        #item-3{
+            display: inline-block;
+        }
+        ul{
+                display: flex;
+            }
+    }  
+    @media screen and (min-width: 1024px) and (max-width: 1300px) {
+        #item-4{
+            display: inline-block;
+        }
+        ul{
+                display: flex;
+            }
+    }
+        
+    </style>
+</head>
+<body>
+    <!-- <h1>Display Inline</h1>
+    <h2>Display block</h2>
+    <ul class="pagination">
+        <li><a class="active" href="">1</a></li>
+        <li><a href="">2</a></li>
+        <li><a href="">3</a></li>
+        <li><a href="">4</a></li>
+        <li><a href="">5</a></li>
+        <li><a href="">6</a></li>
+        <li><a href="">7</a></li>
+        <li><a href="">8</a></li>
+        <li><a href="">9</a></li>
+        <li><a href="">10</a></li>
+    </ul>
+    <div class="laptop">
+        <img src="/assets/laptop.jpg" alt="laptop"/>
+    </div> -->
+    <nav>
+        <h1>Vrit</h1>
+        <ul>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <button class="contact">Contact us</button>
+        </ul>
+       
+    </nav>
+    <div class="media">
+        <div class="content" id="item-1">i am for mobile</div>
+        <div class="content" id="item-2">i am for tablets</div>
+        <div class="content" id="item-3">i am for desktops and laptops</div>
+        <div class="content" id="item-4">i am over</div>
+
+    </div>
+</body>
+</html>
